@@ -1,0 +1,57 @@
+# ========== Виртуальное окружение ==========
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ========== Файлы баз данных ==========
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ========== Секреты и переменные окружения ==========
+.env
+.env.local
+.env.*.local
+
+# ========== Кеш Python ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.dylib
+
+# ========== Логи ==========
+*.log
+logs/
+*.log.*
+
+# ========== Файлы IDE ==========
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ========== Временные файлы ==========
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ========== Файлы отчётности ==========
+*.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ========== Сборка и дистрибутивы ==========
+dist/
+build/
+*.egg-info/
+*.egg
